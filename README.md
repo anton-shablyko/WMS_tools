@@ -6,7 +6,7 @@ Source files. No instalation needed
 
 ## Description / Usage:
 This is a small but mighty application that will generate UCC-128 type barcodes.
-### WHTOT_generator:
+### >> WHTOT_generator:
 Run the program.
 Application will welcome you and ask for required data:
 - Start Tote number
@@ -20,7 +20,7 @@ After generation is complete:
 ## Todo:
 - Add UI
 
-### Format_for_constant_contact.
+### >> Format_for_constant_contact.
 Simple parser to convert original csv with the list of emails to the format accepted by CC.
 Run the program:
 ```python
