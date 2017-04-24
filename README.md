@@ -24,10 +24,12 @@ After generation is complete:
 Simple parser to convert original csv with the list of emails to the format accepted by CC.
 Run the program:
 ```python
-all = ConvertForConsantContact('all')
-all.convert_emails()
+# to generate all_emails
+_all = ConvertForConsantContact('all')
+_all.convert_emails()
 ```
 ```python
+# to generate billing_emails
 billing = ConvertForConsantContact('billing')
 billing.convert_emails()
 ```
