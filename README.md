@@ -23,13 +23,13 @@ After generation is complete:
 ### Format_for_constant_contact.
 Simple parser to convert original csv with the list of emails to the format accepted by CC.
 Run the program:
+```python
 all = ConvertForConsantContact('all')
 all.convert_emails()
-
+```
+```python
 billing = ConvertForConsantContact('billing')
 billing.convert_emails()
-
+```
 ## Todo
 - Add UI
-
-
