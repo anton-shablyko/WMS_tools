@@ -17,7 +17,7 @@ After generation is complete:
 1. application will return you the information about location of the labels. Follow the provided directions to retrieve it. 
 2. application will save a log about the last operation in format:
    {date: current date, start: start_tote, end: end_tote, requester: User, warehouse: Test, comments: Blah}
-## Todo:
+### Todo:
 - Add UI
 
 ### >> Format_for_constant_contact.
@@ -33,5 +33,5 @@ _all.convert_emails()
 billing = ConvertForConsantContact('billing')
 billing.convert_emails()
 ```
-## Todo
+### Todo
 - Add UI
